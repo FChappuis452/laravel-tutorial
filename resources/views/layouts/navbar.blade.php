@@ -15,13 +15,13 @@
 
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home
-          <span class="sr-only">(current)</span>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('/') }}">Home
+          <!-- <span class="sr-only">(current)</span> -->
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Add new</a>
+        <a class="nav-link" href="{{ url('/create') }}">Add new</a>
       </li>
 
       

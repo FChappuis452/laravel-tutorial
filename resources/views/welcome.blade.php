@@ -2,5 +2,14 @@
 @section('content')
 
 <h1> Home page </h1>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+@if (session('successMsg'))
+
+<div class="alert alert-success" role="alert">
+    {{ session('successMsg')}}
+</div>
+
+@endif
+
+
 @endsection
